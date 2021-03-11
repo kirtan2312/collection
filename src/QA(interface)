@@ -1,0 +1,16 @@
+At the beginning of this lesson, you learned that the core collection interfaces are organized into two distinct inheritance trees. One interface in particular is not considered to be a true Collection, and therefore sits at the top of its own tree. What is the name of this interface?
+Ans:Map interface
+What interface represents a collection that does not allow duplicate elements?
+ANs:Set Interface
+What interface forms the root of the collections hierarchy?
+Ans:Collection Interface
+What interface represents an ordered collection that may contain duplicate elements?
+Ans:ArrayList interface
+What interface repesents a type that maps keys to values?
+Ans:MAp interface
+What interface represents a double-ended queue?
+ANs:Dequeue
+Name three different ways to iterate over the elements of a List.
+ANs:for loop
+    Iterator
+    enhance for loop
