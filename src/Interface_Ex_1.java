@@ -16,3 +16,5 @@ public class Interface_Ex_1 {
         return arr;
     }
 }
+
+o/p:-https://github.com/kirtan2312/collection/blob/kirtan/src/Snapshots/Interface_Ex_1.png
