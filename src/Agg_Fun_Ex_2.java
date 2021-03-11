@@ -26,3 +26,6 @@ public class Agg_Fun_Ex_2 {
         System.out.println(s);
     }
 }
+
+
+o/p:-https://github.com/kirtan2312/collection/blob/kirtan/src/Snapshots/Agg_Fun_Ex_2.png
