@@ -33,3 +33,4 @@ public class Impl_Ex {
         }
     }
 }
+o/p:-https://github.com/kirtan2312/collection/blob/kirtan/src/Snapshots/Impl_Ex.png
