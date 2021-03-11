@@ -1,0 +1,4 @@
+A sequence of aggregate operations is known as a ___ .
+Ans:pipeline
+The code p -> p.getGender() == Person.Sex.MALE is an example of what?
+ANs:lambda exp
