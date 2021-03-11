@@ -21,3 +21,5 @@ public class Interface_Ex_3 {
         System.out.println(new_list);
     }
 }
+
+o/p:-https://github.com/kirtan2312/collection/blob/kirtan/src/Snapshots/Interface_Ex_3.png
