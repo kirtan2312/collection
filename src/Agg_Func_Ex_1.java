@@ -26,3 +26,6 @@ public class Agg_Func_Ex_1 {
         list.stream().filter(p->p.getGender()=="Male").forEach(e->System.out.println(e));
     }
 }
+
+
+o/p:-https://github.com/kirtan2312/collection/blob/kirtan/src/Snapshots/Agg_Fun_Ex_1.png
