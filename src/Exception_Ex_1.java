@@ -16,7 +16,7 @@ public class Exception_Ex_1 {
                String words[]=line.split(" ");
                for(int i=0;i<words.length;i++)
                {
-                   if(isImteger(words[i]))
+                   if(isInteger(words[i]))
                    {
                        vector.add(Integer.parseInt(words[i]));
                    }
@@ -29,7 +29,7 @@ public class Exception_Ex_1 {
             e.printStackTrace();
         }
     }
-    public static boolean isImteger(String string)
+    public static boolean isInteger(String string)
     {
         if(string==null || string=="")
         {
