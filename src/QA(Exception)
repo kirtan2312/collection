@@ -1,0 +1,21 @@
+1.Is the following code legal?
+  try {
+
+  } finally {
+
+  }
+  Ans:Yes
+2.What exception types can be caught by the following handler?
+  catch (Exception e) {
+
+  }
+Ans:All type of Exception
+3.Is there anything wrong with the following exception handler as written? Will this code compile?
+  try {
+
+  } catch (Exception e) {
+
+  } catch (ArithmeticException a) {
+
+  }
+Ans:ArithmeticException already caught in above catch block.
