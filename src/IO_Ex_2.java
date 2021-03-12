@@ -50,3 +50,4 @@ public class IO_Ex_2 {
        return (num==number) ? true :false;
     }
 }
+o/p:https://github.com/kirtan2312/collection/blob/kirtan/src/Snapshots/IO_Ex_2.png
