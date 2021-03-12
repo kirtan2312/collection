@@ -46,3 +46,4 @@ public class Exception_Ex_1 {
 
     }
 }
+o/p:https://github.com/kirtan2312/collection/blob/kirtan/src/Snapshots/Exception_Ex_1.png
