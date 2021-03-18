@@ -10,12 +10,12 @@ public class Impl_Ex {
         int lines=Integer.parseInt(args[1]);
         try
         {
-            FileReader fr=new FileReader("/home/kirtan/IdeaProjects/Test/src/"+file);
-            BufferedReader br=new BufferedReader(fr);
+            FileReader file_reader=new FileReader("/home/kirtan/IdeaProjects/Test/src/"+file);
+            BufferedReader buffered_reader=new BufferedReader(file_reader);
             String line="";
             int total_lines=0;
             List<String> list=new ArrayList<String>();
-            while((line=br.readLine())!=null)
+            while((line=buffered_reader.readLine())!=null)
             {
                 total_lines+=1;
                 list.add(line);
