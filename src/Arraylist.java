@@ -36,10 +36,10 @@ public class Arraylist
 //        arr.clear();
 //        System.out.println(arr);
 
-        ArrayList<Integer> a=new ArrayList<Integer>();
-        a.add(10);
-        a.add(20);
-        arr.removeAll(a);
+        ArrayList<Integer> arrayList=new ArrayList<Integer>();
+        arrayList.add(10);
+        arrayList.add(20);
+        arr.removeAll(arrayList);
         System.out.println(arr);
 
 
@@ -55,7 +55,7 @@ public class Arraylist
         }
 
 
-        arr.addAll(2,a);
+        arr.addAll(2,arrayList);
         System.out.println(arr);
     }
 
