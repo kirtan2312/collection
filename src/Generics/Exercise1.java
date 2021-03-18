@@ -35,3 +35,5 @@ public class Exercise1 {
         return counter;
     }
 }
+
+https://github.com/kirtan2312/collection/blob/main/src/Snapshots/Generics_Excercise1.png
