@@ -5,8 +5,8 @@ import java.util.Map.Entry;
 public class CountWordsInString {
 
     public static void main(String[] args) {
-        String s="java is programming language and java is platform independent";
-        String words[]=s.split(" ");
+        String string="java is programming language and java is platform independent";
+        String words[]=string.split(" ");
         Map<String,Integer> map=new HashMap<String,Integer>();
         for(int i=0;i<words.length;i++)
         {
