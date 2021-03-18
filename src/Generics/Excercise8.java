@@ -29,3 +29,5 @@ public class Excercise8 {
         return maxElement;
     }
 }
+
+https://github.com/kirtan2312/collection/blob/main/src/Snapshots/Generics_Excercise8.png
