@@ -16,3 +16,5 @@ public class Excercise3 {
         System.out.println(array[index1] +" : "+array[index2]);
     }
 }
+
+https://github.com/kirtan2312/collection/blob/main/src/Snapshots/Generics_Excercise3.png
