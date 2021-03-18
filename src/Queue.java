@@ -5,38 +5,38 @@ import java.util.PriorityQueue;
 
 public class Queue {
     public static void main(String[] args) {
-        java.util.Queue<Integer> q=new PriorityQueue<Integer>();
-//        q.add(10);
-//        q.add(20);
-//        q.add(30);
-//        q.add(40);
-//        q.add(50);
-//        System.out.println(q);
-//        System.out.println(q.poll());
-//        System.out.println(q);
-//        System.out.println(q.peek());
-//        System.out.println(q.element());//gives exception if any element not found
-//        System.out.println(q.peek());//returns null if any elements not found
-//        System.out.println(q.offer(60));
-//        System.out.println(q.add(60));
-//        System.out.println(q);
+        java.util.Queue<Integer> queue=new PriorityQueue<Integer>();
+//        queue.add(10);
+//        queue.add(20);
+//        queue.add(30);
+//        queueueue.add(40);
+//        queue.add(50);
+//        System.out.println(queue);
+//        System.out.println(queue.poll());
+//        System.out.println(queue);
+//        System.out.println(queue.peek());
+//        System.out.println(queue.element());//gives exception if any element not found
+//        System.out.println(queue.peek());//returns null if any elements not found
+//        System.out.println(queue.offer(60));
+//        System.out.println(queue.add(60));
+//        System.out.println(queue);
 
-        Deque<Integer> dq=new ArrayDeque<Integer>();
-        dq.add(10);
-        dq.add(20);
-        dq.add(30);
-        dq.add(40);
-        dq.add(50);
-        System.out.println(dq);
-        System.out.println(dq.getFirst());
-        System.out.println(dq.getLast());
-        System.out.println(dq);
-        Iterator<Integer> it=dq.descendingIterator();
-        dq.add(60);
+        Deque<Integer> deque=new ArrayDeque<Integer>();
+        deque.add(10);
+        deque.add(20);
+        deque.add(30);
+        deque.add(40);
+        deque.add(50);
+        System.out.println(deque);
+        System.out.println(deque.getFirst());
+        System.out.println(deque.getLast());
+        System.out.println(deque);
+        Iterator<Integer> it=deque.descendingIterator();
+        deque.add(60);
         while(it.hasNext())
         {
             System.out.println(it.next());
         }
-        System.out.println(dq);
+        System.out.println(deque);
     }
 }
