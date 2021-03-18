@@ -4,26 +4,23 @@ public class Agg_Func_Ex_1 {
     public static void main(String[] args) {
 
         List<Person> list=new ArrayList<Person>();
-        Person p1=new Person();
-        p1.setGender("Male");
-        p1.setName("kirtan");
-        list.add(p1);
-       // System.out.println(p1);
+        Person person1=new Person();
+        person1.setGender("Male");
+        person1.setName("kirtan");
+        list.add(person1);
 
-        Person p2=new Person();
-        p2.setGender("Female");
-        p2.setName("a");
-        list.add(p2);
-       // System.out.println(p2);
+        Person person2=new Person();
+        person2.setGender("Male");
+        person2.setName("b");
+        list.add(person2);
 
-        Person p3=new Person();
-        p3.setGender("Male");
-        p3.setName("b");
-        list.add(p3);
-        //System.out.println(p3);
+        Person person3=new Person();
+        person3.setGender("Female");
+        person3.setName("a");
+        list.add(person3);
 
         //get all persons which gender is Male
-        list.stream().filter(p->p.getGender()=="Male").forEach(e->System.out.println(e));
+        list.stream().filter(person->person.getGender()=="Male").forEach(ele->System.out.println(ele));
     }
 }
 
