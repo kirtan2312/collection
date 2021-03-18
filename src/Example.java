@@ -17,22 +17,22 @@ public class Example {
 
         System.out.println("Size = "+map.size());
 
-        Map m=new HashMap();
-        m.putAll(map);
-        System.out.println(m);
+        Map map1=new HashMap();
+        map1.putAll(map);
+        System.out.println(map1);
 
         map.clear();//remove all mapping
 
         System.out.println(map.isEmpty());//to check map is empty or not
 
-        Map new_map=new HashMap(m);
+        Map new_map=new HashMap(map1);
         System.out.println(new_map);
 
-        System.out.println(m.containsKey("a"));
+        System.out.println(map1.containsKey("a"));
 
-        System.out.println(m.get("a"));
+        System.out.println(map1.get("a"));
 
-        Set set2=m.keySet();
+        Set set2=map1.keySet();
         for(Object o:set2)
         {
             System.out.println(o);
