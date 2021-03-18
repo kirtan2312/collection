@@ -1,0 +1,63 @@
+Q:  Will the following class compile? If not, why?
+    public final class Algorithm {
+        public static <T> T max(T x, T y) {
+            return x > y ? x : y;
+        }
+    }
+Ans: No,bcz > operator applies only to primitive types and T can be anything that's why program will not compile.
+
+Q:  What is the following class converted to after type erasure?
+    public class Pair<K, V> {
+
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public K getKey(); { return key; }
+    public V getValue(); { return value; }
+
+    public void setKey(K key)     { this.key = key; }
+    public void setValue(V value) { this.value = value; }
+
+    private K key;
+    private V value;
+}
+Ans:Object instead of K and V.
+Q: public static void print(List<? extends Number> list) {
+    for (Number n : list)
+        System.out.print(n + " ");
+    System.out.println();
+    }
+Ans:YEs
+
+Q:  Given the following classes:
+    class Shape { /* ... */ }
+    class Circle extends Shape { /* ... */ }
+    class Rectangle extends Shape { /* ... */ }
+
+    class Node<T> { /* ... */ }
+    Will the following code compile? If not, why?
+    Node<Circle> nc = new Node<>();
+    Node<Shape>  ns = nc;
+Ans:No,bcz shap is the parent class of Circle
+
+Q:  Consider this class:
+    class Node<T> implements Comparable<T> {
+        public int compareTo(T obj) { /* ... */ }
+        // ...
+    }
+    Will the following code compile? If not, why?
+Ans:Yes
+
+Q: Given the following classes:
+    class Shape { /* ... */ }
+    class Circle extends Shape { /* ... */ }
+    class Rectangle extends Shape { /* ... */ }
+
+    class Node<T> { /* ... */ }
+    Will the following code compile? If not, why?
+    Node<Circle> nc = new Node<>();
+    Node <Shape>  ns = nc;
+
+Ans:No,bcz Node<circle> is not subtype of Node<shap> 
